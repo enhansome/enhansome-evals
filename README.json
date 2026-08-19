@@ -1,7 +1,7 @@
 {
   "items": [
     {
-      "description": "",
+      "description": "Must-reads: Wei · Lee (RL-env taxonomy)",
       "items": [
         {
           "node_type": "item",
@@ -10,11 +10,12 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "id": 920603619,
             "language": "Python",
-            "last_commit": "2026-08-18T00:38:49Z",
+            "last_commit": "2026-08-19T08:28:58Z",
             "owner": "PrimeIntellect-ai",
             "repo": "verifiers",
-            "stars": 4521
+            "stars": 4523
           }
         },
         {
@@ -24,11 +25,12 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "id": 999222244,
             "language": "Python",
-            "last_commit": "2026-08-14T20:59:57Z",
+            "last_commit": "2026-08-18T17:07:54Z",
             "owner": "sierra-research",
             "repo": "tau2-bench",
-            "stars": 1814
+            "stars": 1822
           }
         },
         {
@@ -38,18 +40,19 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "id": 1141514919,
             "language": "Python",
             "last_commit": "2026-08-17T21:07:41Z",
             "owner": "harbor-framework",
             "repo": "terminal-bench",
-            "stars": 507
+            "stars": 514
           }
         }
       ],
       "title": "2 · \"If you can eval it, you have built it\" — eval ⇄ capability ⇄ RL environment"
     },
     {
-      "description": "",
+      "description": "Must-reads: Lee (eval infra) · Braintrust (three pillars)",
       "items": [
         {
           "node_type": "item",
@@ -58,11 +61,12 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "id": 735999703,
             "language": "Python",
-            "last_commit": "2026-08-18T07:46:44Z",
+            "last_commit": "2026-08-19T05:33:51Z",
             "owner": "Arize-ai",
             "repo": "openinference",
-            "stars": 1151
+            "stars": 1155
           }
         },
         {
@@ -72,11 +76,12 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "id": 1229425836,
             "language": "Python",
             "last_commit": "2026-08-17T00:44:50Z",
             "owner": "open-telemetry",
             "repo": "semantic-conventions-genai",
-            "stars": 259
+            "stars": 262
           }
         }
       ],
@@ -84,851 +89,916 @@
     },
     {
       "description": "(All repos URL-verified via GitHub API, Jun 2026. = released/expanded 2025–2026. = caveat/discontinued.)",
-      "items": [],
+      "items": [
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "promptfoo — https://github.com/promptfoo/promptfoo",
+              "description": "MIT eval + red-teaming CLI; git-diffable YAML configs. (MUST)",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 633927609,
+                "language": "TypeScript",
+                "last_commit": "2026-08-18T22:33:59Z",
+                "owner": "promptfoo",
+                "repo": "promptfoo",
+                "stars": 24364
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "pydantic-evals — https://github.com/pydantic/pydantic-ai",
+              "description": "() — 🆕 type-safe Datasets/Cases/Evaluators with OTel tracing, from the Pydantic AI team.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 818331198,
+                "language": "Python",
+                "last_commit": "2026-08-19T07:05:00Z",
+                "owner": "pydantic",
+                "repo": "pydantic-ai",
+                "stars": 19384
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "OpenAI Evals — https://github.com/openai/evals",
+              "description": "the abstraction = swap the system-under-test. (Best-practices: https://developers.openai.com/api/docs/guides/evaluation-best-practices)",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 592489166,
+                "language": "Python",
+                "last_commit": "2026-04-14T15:29:57Z",
+                "owner": "openai",
+                "repo": "evals",
+                "stars": 19198
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "DeepEval / Confident AI — https://github.com/confident-ai/deepeval",
+              "description": "\"pytest for LLMs,\" 40+ metrics (G-Eval, RAG, hallucination) + red-team; ~2M evals/day; hosted cloud. 🆕",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 676829188,
+                "language": "Python",
+                "last_commit": "2026-08-17T11:05:50Z",
+                "owner": "confident-ai",
+                "repo": "deepeval",
+                "stars": 17695
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "lm-evaluation-harness — EleutherAI — https://github.com/EleutherAI/lm-evaluation-harness",
+              "description": "the standard academic harness; first-class decontamination; task YAMLs.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 290909192,
+                "language": "Python",
+                "last_commit": "2026-08-14T09:42:10Z",
+                "owner": "EleutherAI",
+                "repo": "lm-evaluation-harness",
+                "stars": 13714
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Giskard — https://github.com/Giskard-AI/giskard-oss",
+              "description": "auto-generates adversarial test suites (injection, hallucination, bias) from a plain-language app description.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 466864356,
+                "language": "Python",
+                "last_commit": "2026-08-19T09:12:44Z",
+                "owner": "Giskard-AI",
+                "repo": "giskard-oss",
+                "stars": 5758
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "simple-evals — OpenAI — https://github.com/openai/simple-evals",
+              "description": "minimal zero-shot/CoT scripts (MMLU, HumanEval, SimpleQA, HealthBench); the numbers OpenAI publishes. ⚠️ not actively maintained.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 785446833,
+                "language": "Python",
+                "last_commit": "2026-04-22T22:16:18Z",
+                "owner": "openai",
+                "repo": "simple-evals",
+                "stars": 4604
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Harbor — harbor-framework (Laude Institute / Stanford) — https://github.com/harbor-framework/harbor",
+              "description": "🆕 framework for running agent evals + creating/using RL environments; powers Terminal-Bench 2.0. ~2.7k★. ⚠️ name overloaded (cf. local-LLM toolkit).",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1032170083,
+                "language": "Python",
+                "last_commit": "2026-08-19T06:39:05Z",
+                "owner": "harbor-framework",
+                "repo": "harbor",
+                "stars": 4399
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Deepchecks LLM — https://github.com/deepchecks/deepchecks",
+              "description": "() — property-based scoring (grounded-in-context, toxicity, fluency) + custom LLM-judge properties.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 415969774,
+                "language": "Python",
+                "last_commit": "2025-12-28T12:07:44Z",
+                "owner": "deepchecks",
+                "repo": "deepchecks",
+                "stars": 4047
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "HELM (crfm-helm) — Stanford CRFM — https://github.com/stanford-crfm/helm",
+              "description": "holistic eval: standardized datasets + metrics beyond accuracy + leaderboard (also VHELM, HEIM).",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 432968463,
+                "language": "Python",
+                "last_commit": "2026-08-01T01:23:17Z",
+                "owner": "stanford-crfm",
+                "repo": "helm",
+                "stars": 2880
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Inspect AI — UK AISI — https://github.com/UKGovernmentBEIS/inspect_ai",
+              "description": "https://inspect.aisi.org.uk/ — binds dataset + solver + scorer; custom scorers; sandboxed tools. The reference agent-eval framework. (MUST)",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 718665019,
+                "language": "Python",
+                "last_commit": "2026-08-19T07:46:27Z",
+                "owner": "UKGovernmentBEIS",
+                "repo": "inspect_ai",
+                "stars": 2574
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "lighteval — Hugging Face — https://github.com/huggingface/lighteval",
+              "description": "🆕 all-in-one harness across transformers/vLLM/TGI/nanotron, 1000+ tasks; HF's successor to .",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 748650671,
+                "language": "Python",
+                "last_commit": "2026-08-11T13:10:37Z",
+                "owner": "huggingface",
+                "repo": "lighteval",
+                "stars": 2522
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "HF — https://github.com/huggingface/evaluate",
+              "description": "classic metrics library, ⚠️ maintenance mode (use lighteval for LLMs).",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 475932672,
+                "language": "Python",
+                "last_commit": "2026-07-06T13:22:00Z",
+                "owner": "huggingface",
+                "repo": "evaluate",
+                "stars": 2476
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "UpTrain — https://github.com/uptrain-ai/uptrain",
+              "description": "20+ preconfigured checks + root-cause analysis on failures.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 562754304,
+                "language": "Python",
+                "last_commit": "2024-08-18T13:30:44Z",
+                "owner": "uptrain-ai",
+                "repo": "uptrain",
+                "stars": 2358
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "openevals — LangChain — https://github.com/langchain-ai/openevals",
+              "description": "🆕 prebuilt evaluators + (incl. multimodal); general-purpose companion to agentevals (https://github.com/langchain-ai/agentevals, trajectory match).",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 929174241,
+                "language": "Python",
+                "last_commit": "2026-08-18T05:02:42Z",
+                "owner": "langchain-ai",
+                "repo": "openevals",
+                "stars": 1170
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "OpenBench — Groq — https://github.com/groq/openbench",
+              "description": "🆕 provider-agnostic CLI, 95+ benchmarks, built on Inspect primitives.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1029550379,
+                "language": "Python",
+                "last_commit": "2026-08-18T18:55:16Z",
+                "owner": "groq",
+                "repo": "openbench",
+                "stars": 803
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "inspect_evals — UK AISI — https://github.com/UKGovernmentBEIS/inspect_evals",
+              "description": "🆕 the companion catalog of community benchmarks (GAIA, CTFs, AIME…) — the \"batteries\" for Inspect.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 866415939,
+                "language": "Python",
+                "last_commit": "2026-08-19T07:09:44Z",
+                "owner": "UKGovernmentBEIS",
+                "repo": "inspect_evals",
+                "stars": 632
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "OLMES — Allen Institute (Ai2) — https://github.com/allenai/olmes",
+              "description": "🆕 the reproducible eval standard + harness behind OLMo/Tülu: standardized prompts/metrics/formatting for apples-to-apples model comparison.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 882122902,
+                "language": "Python",
+                "last_commit": "2026-03-24T17:47:10Z",
+                "owner": "allenai",
+                "repo": "olmes",
+                "stars": 392
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "BenchFlow — https://github.com/benchflow-ai/benchflow",
+              "description": "https://benchflow.ai — 🆕 environment-lab framework: research infra + runtime for building RL environments, evals & post-training; ships SkillsBench and ClawsBench. (\"Environments are the new data.\")",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 920298184,
+                "language": "Python",
+                "last_commit": "2026-08-17T19:41:42Z",
+                "owner": "benchflow-ai",
+                "repo": "benchflow",
+                "stars": 327
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "5a · Eval frameworks & harnesses (code-first test-runners)"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "Mastra scorers — https://github.com/mastra-ai/mastra",
+              "description": "() — 🆕 model-graded/rule/statistical scorers, live evals, CI, in the Mastra agent framework.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 839037098,
+                "language": "TypeScript",
+                "last_commit": "2026-08-19T09:47:59Z",
+                "owner": "mastra-ai",
+                "repo": "mastra",
+                "stars": 27298
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "evalite — Matt Pocock — https://github.com/mattpocock/evalite",
+              "description": "🆕 local-first eval runner on Vitest; files, web UI, cost-aware.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 887265538,
+                "language": "TypeScript",
+                "last_commit": "2026-04-28T18:31:29Z",
+                "owner": "mattpocock",
+                "repo": "evalite",
+                "stars": 1656
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Autoevals — Braintrust — https://github.com/braintrustdata/autoevals",
+              "description": "OSS scorer library (Factuality, relevance, security…) across Py/JS/Go/Ruby.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 664963846,
+                "language": "Python",
+                "last_commit": "2026-07-29T20:54:43Z",
+                "owner": "braintrustdata",
+                "repo": "autoevals",
+                "stars": 1004
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Vercel agent-eval — https://github.com/vercel-labs/agent-eval",
+              "description": "🆕 A/B-test coding agents (Claude Code, Codex, Cursor) on custom tasks; pass-rate dashboards.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1144699565,
+                "language": "TypeScript",
+                "last_commit": "2026-08-17T20:52:57Z",
+                "owner": "vercel-labs",
+                "repo": "agent-eval",
+                "stars": 242
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "5b · TypeScript/JS-native eval runners"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "TruLens — https://github.com/truera/trulens",
+              "description": "instrumentation + \"feedback functions\" (the RAG triad), now OTel-based.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 309504885,
+                "language": "Python",
+                "last_commit": "2026-08-14T16:08:33Z",
+                "owner": "truera",
+                "repo": "trulens",
+                "stars": 3514
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "RAGChecker — Amazon Science — https://github.com/amazon-science/RAGChecker",
+              "description": "🆕 claim-level diagnosis separating retriever vs generator errors.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 819435778,
+                "language": "Python",
+                "last_commit": "2024-12-13T13:24:41Z",
+                "owner": "amazon-science",
+                "repo": "RAGChecker",
+                "stars": 1107
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "ARES — Stanford — https://github.com/stanford-futuredata/ARES",
+              "description": "synthetic queries + fine-tuned judges + prediction-powered inference for confidence intervals.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 697100198,
+                "language": "Python",
+                "last_commit": "2025-03-28T11:25:50Z",
+                "owner": "stanford-futuredata",
+                "repo": "ARES",
+                "stars": 732
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "continuous-eval (Relari) — https://github.com/relari-ai/continuous-eval",
+              "description": "modular per-module metrics across retrieval/generation/tool-use.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 729307404,
+                "language": "Python",
+                "last_commit": "2026-08-10T22:12:03Z",
+                "owner": "relari-ai",
+                "repo": "continuous-eval",
+                "stars": 515
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Tonic Validate — https://github.com/TonicAI/tonic_validate",
+              "description": "RAG metrics as a GitHub Action for CI.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 709026806,
+                "language": "Python",
+                "last_commit": "2025-07-10T13:53:28Z",
+                "owner": "TonicAI",
+                "repo": "tonic_validate",
+                "stars": 327
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "5c · RAG / retrieval evaluation"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "RULER — OpenPipe (ART) — https://github.com/OpenPipe/ART",
+              "description": "() — 🆕 LLM-judge that ranks trajectories with no labels — judge-as-RL-reward. (industry must-read)",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 946178371,
+                "language": "Python",
+                "last_commit": "2026-08-19T01:31:53Z",
+                "owner": "OpenPipe",
+                "repo": "ART",
+                "stars": 10603
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Prometheus 2 — https://github.com/prometheus-eval/prometheus-eval",
+              "description": "open-weight evaluator LMs for rubric-based assessment + pairwise.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 788574052,
+                "language": "Python",
+                "last_commit": "2025-04-25T03:58:37Z",
+                "owner": "prometheus-eval",
+                "repo": "prometheus-eval",
+                "stars": 1107
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "RewardBench — AI2 — https://github.com/allenai/reward-bench",
+              "description": "canonical reward-model (+v2 judge) benchmark/harness.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 735090310,
+                "language": "Python",
+                "last_commit": "2026-02-16T05:50:29Z",
+                "owner": "allenai",
+                "repo": "reward-bench",
+                "stars": 732
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "verdict — Haize Labs — https://github.com/haizelabs/verdict",
+              "description": "🆕 declarative compound judges (debate/verification/aggregation, inference-time scaling); arXiv:2502.18018.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 904476738,
+                "language": "Jupyter Notebook",
+                "last_commit": "2025-11-05T03:20:00Z",
+                "owner": "haizelabs",
+                "repo": "verdict",
+                "stars": 344
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "JudgeBench — https://github.com/ScalerLab/JudgeBench",
+              "description": "benchmark to evaluate the judges themselves.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 872547031,
+                "language": "Python",
+                "last_commit": "2024-11-07T02:25:04Z",
+                "owner": "ScalerLab",
+                "repo": "JudgeBench",
+                "stars": 131
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Flow-Judge — https://github.com/flowaicom/flow-judge",
+              "description": "efficient 3.8B open evaluator.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 858827650,
+                "language": "Python",
+                "last_commit": "2024-10-29T07:23:19Z",
+                "owner": "flowaicom",
+                "repo": "flow-judge",
+                "stars": 86
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Atla Selene — https://github.com/atla-ai/selene-mini",
+              "description": "🆕 8B SoTA open judge (score + critique); + MCP server . arXiv:2501.17195.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 923538557,
+                "language": "Jupyter Notebook",
+                "last_commit": "2025-04-14T11:14:05Z",
+                "owner": "atla-ai",
+                "repo": "selene-mini",
+                "stars": 30
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "reward-kit — Fireworks — https://github.com/fw-ai-external/reward-kit",
+              "description": "🆕 decorator-based reward-function authoring (TRL/Fireworks interop).",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 967851683,
+                "language": "Python",
+                "last_commit": "2025-09-09T05:12:12Z",
+                "owner": "fw-ai-external",
+                "repo": "reward-kit",
+                "stars": 15
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Patronus Lynx / GLIDER — https://github.com/patronus-ai/Lynx-hallucination-detection",
+              "description": "https://github.com/patronus-ai/glider — 🆕 open hallucination judge / explainable span-level judge.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 826769879,
+                "language": "Python",
+                "last_commit": "2024-07-10T21:46:19Z",
+                "owner": "patronus-ai",
+                "repo": "Lynx-hallucination-detection",
+                "stars": 1
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "5d · LLM-as-judge / reward / verifier libraries"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "verl — https://github.com/volcengine/verl",
+              "description": "(now ) — de-facto industry RLVR trainer (PPO/GRPO). ~22k★.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 881221486,
+                "language": "Python",
+                "last_commit": "2026-08-19T09:26:57Z",
+                "owner": "verl-project",
+                "repo": "verl",
+                "stars": 23034
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "OpenRLHF — https://github.com/OpenRLHF/OpenRLHF",
+              "description": "SkyRL — https://github.com/NovaSky-AI/SkyRL · AReaL — https://github.com/areal-project/AReaL · ROLL — https://github.com/alibaba/ROLL · rLLM — https://github.com/agentica-project/rllm · TRL — https://github.com/huggingface/trl — the RL-training stack agents are post-trained + eval'd in.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 672415139,
+                "language": "Python",
+                "last_commit": "2026-08-13T11:26:24Z",
+                "owner": "OpenRLHF",
+                "repo": "OpenRLHF",
+                "stars": 9933
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "verifiers — Prime Intellect — https://github.com/PrimeIntellect-ai/verifiers",
+              "description": "Environment = dataset + harness + rubric; one package for eval, RL, synthetic data. (MUST)",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 920603619,
+                "language": "Python",
+                "last_commit": "2026-08-19T08:28:58Z",
+                "owner": "PrimeIntellect-ai",
+                "repo": "verifiers",
+                "stars": 4523
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "prime-rl — Prime Intellect — https://github.com/PrimeIntellect-ai/prime-rl",
+              "description": "🆕 async RL trainer consuming verifiers envs (INTELLECT-3).",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 934553284,
+                "language": "Python",
+                "last_commit": "2026-08-19T03:39:43Z",
+                "owner": "PrimeIntellect-ai",
+                "repo": "prime-rl",
+                "stars": 1950
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Atropos — Nous Research — https://github.com/NousResearch/atropos",
+              "description": "🆕 async \"environment microservice\" framework for rollouts/verifiable rewards.",
+              "children": [],
+              "repo_info": {
+                "archived": true,
+                "id": 975086883,
+                "language": "Python",
+                "last_commit": "2026-07-04T17:39:01Z",
+                "owner": "NousResearch",
+                "repo": "atropos",
+                "stars": 1347
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "BenchFlow — https://github.com/benchflow-ai/benchflow",
+              "description": "https://benchflow.ai — 🆕 environment lab: builds & runs RL/eval environments (SkillsBench, ClawsBench, runtime). \"Environments are the new data.\" (also §5a)",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 920298184,
+                "language": "Python",
+                "last_commit": "2026-08-17T19:41:42Z",
+                "owner": "benchflow-ai",
+                "repo": "benchflow",
+                "stars": 327
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "HUD — https://github.com/hud-evals/hud-python",
+              "description": "🆕 SDK to build/run agent eval environments (computer-use, browser, MCP) with telemetry.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 941344611,
+                "language": "Python",
+                "last_commit": "2026-08-19T08:48:14Z",
+                "owner": "hud-evals",
+                "repo": "hud-python",
+                "stars": 291
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Environments Hub — Prime Intellect — https://github.com/PrimeIntellect-ai/community-environments",
+              "description": "(app.primeintellect.ai) — 🆕 crowdsourced verifiers-based RL/eval envs.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1038906398,
+                "language": "Python",
+                "last_commit": "2026-08-04T22:17:50Z",
+                "owner": "PrimeIntellect-ai",
+                "repo": "community-environments",
+                "stars": 253
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "5e · RL-environment / verifiable-reward toolkits (eval ⇄ training)"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "Langfuse — https://github.com/langfuse/langfuse",
+              "description": "OSS: evals (LLM-judge, feedback, manual labeling), datasets/experiments, prompt mgmt; self-hostable. 🆕",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 642497346,
+                "language": "TypeScript",
+                "last_commit": "2026-08-19T09:48:49Z",
+                "owner": "langfuse",
+                "repo": "langfuse",
+                "stars": 33373
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Opik — Comet — https://github.com/comet-ml/opik",
+              "description": "🆕 fully-OSS eval + observability (judges, datasets, CI-runnable evals).",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 638951438,
+                "language": "Python",
+                "last_commit": "2026-08-19T09:45:37Z",
+                "owner": "comet-ml",
+                "repo": "opik",
+                "stars": 21463
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Portkey — https://github.com/portkey-ai/gateway",
+              "description": "🆕 OSS gateway + 60+ guardrails + observability (fully open-sourced Mar 2026).",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 682080300,
+                "language": "TypeScript",
+                "last_commit": "2026-05-25T13:54:51Z",
+                "owner": "Portkey-AI",
+                "repo": "gateway",
+                "stars": 12765
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Arize Phoenix — https://github.com/Arize-ai/phoenix",
+              "description": "OSS OTel tracing + response/retrieval evals + datasets/experiments. (MUST)",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 564072810,
+                "language": "Python",
+                "last_commit": "2026-08-19T07:18:32Z",
+                "owner": "Arize-ai",
+                "repo": "phoenix",
+                "stars": 11107
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Traceloop / OpenLLMetry — https://github.com/traceloop/openllmetry",
+              "description": "OSS OTel instrumentation (Py/TS/Go/Ruby) + hosted reliability platform.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 686364232,
+                "language": "Python",
+                "last_commit": "2026-08-10T08:49:01Z",
+                "owner": "traceloop",
+                "repo": "openllmetry",
+                "stars": 7384
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Helicone — https://github.com/helicone/helicone",
+              "description": "OSS gateway + observability; \"Scores\" ingests external eval results.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 595832198,
+                "language": "TypeScript",
+                "last_commit": "2026-08-16T20:26:29Z",
+                "owner": "Helicone",
+                "repo": "helicone",
+                "stars": 6083
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Langtrace — https://github.com/Scale3-Labs/langtrace",
+              "description": "OSS OTel-standard tracing + manual scoring + dataset mgmt.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 779843396,
+                "language": "TypeScript",
+                "last_commit": "2025-11-17T15:08:48Z",
+                "owner": "Scale3-Labs",
+                "repo": "langtrace",
+                "stars": 1228
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "W&B Weave — https://github.com/wandb/weave",
+              "description": "scorers (exact/regex/model-graded/embedding) + Guardrails; comparison dashboards. 🆕 (Humanloop's migration target.)",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 650377372,
+                "language": "Python",
+                "last_commit": "2026-08-19T06:50:59Z",
+                "owner": "wandb",
+                "repo": "weave",
+                "stars": 1119
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "WhyLabs / LangKit — https://github.com/whylabs/langkit",
+              "description": "high-throughput text-signal metrics (toxicity, PII, jailbreak) for production monitoring.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 633141345,
+                "language": "Jupyter Notebook",
+                "last_commit": "2024-11-22T20:02:14Z",
+                "owner": "whylabs",
+                "repo": "langkit",
+                "stars": 994
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "whatbroke — https://github.com/arthi-arumugam-git/whatbroke",
+              "description": "tool — OSS CLI that diffs two agent trace files (JSONL) before/after a model or prompt change: dropped tool calls, drifted args, reordering, cost/latency/outcome deltas; multi-sample flap rates demote baseline flakiness so only real regressions surface. Offline, deterministic, no judge or API keys; CI-gateable exit codes. 🆕",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1308421534,
+                "language": "TypeScript",
+                "last_commit": "2026-08-06T06:19:19Z",
+                "owner": "arthi-arumugam-git",
+                "repo": "whatbroke",
+                "stars": 19
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "5f · Observability + eval platforms (tracing · datasets · online/offline · CI)"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "RagaAI Catalyst — RagaAI — https://github.com/raga-ai-hub/RagaAI-Catalyst",
+              "description": "tool — OSS agent-observability + eval SDK with multi-agent trace/execution-graph debugging, synthetic-data gen, and guardrail management — covers the online/guardrail-eval slice the section lacks. 🆕",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 847717439,
+                "language": "Python",
+                "last_commit": "2026-02-11T14:43:33Z",
+                "owner": "raga-ai-hub",
+                "repo": "RagaAI-Catalyst",
+                "stars": 16150
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "OpenInference — Arize — https://github.com/Arize-ai/openinference",
+              "description": "semantic conventions for agent traces (tool/args/observation/latency/cost).",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 735999703,
+                "language": "Python",
+                "last_commit": "2026-08-19T05:33:51Z",
+                "owner": "Arize-ai",
+                "repo": "openinference",
+                "stars": 1155
+              }
+            }
+          ],
+          "description": "Must-reads: Inspect AI · promptfoo · Braintrust · verifiers · DeepEval · Phoenix/Langfuse (pick your observability) · RULER (judge-as-reward)",
+          "node_type": "group",
+          "title": "5g · Tracing standards"
+        }
+      ],
       "title": "5 · Evaluation infrastructure (the eval stack: datasets, scorers, online/offline, tracing, CI)"
     },
     {
-      "description": "",
-      "items": [
-        {
-          "node_type": "item",
-          "title": "promptfoo — https://github.com/promptfoo/promptfoo",
-          "description": "MIT eval + red-teaming CLI; git-diffable YAML configs. (MUST)",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "TypeScript",
-            "last_commit": "2026-08-18T03:57:47Z",
-            "owner": "promptfoo",
-            "repo": "promptfoo",
-            "stars": 24332
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "pydantic-evals — https://github.com/pydantic/pydantic-ai",
-          "description": "() — 🆕 type-safe Datasets/Cases/Evaluators with OTel tracing, from the Pydantic AI team.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2026-08-18T09:44:52Z",
-            "owner": "pydantic",
-            "repo": "pydantic-ai",
-            "stars": 19364
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "OpenAI Evals — https://github.com/openai/evals",
-          "description": "the abstraction = swap the system-under-test. (Best-practices: https://developers.openai.com/api/docs/guides/evaluation-best-practices)",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2026-04-14T15:29:57Z",
-            "owner": "openai",
-            "repo": "evals",
-            "stars": 19193
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "DeepEval / Confident AI — https://github.com/confident-ai/deepeval",
-          "description": "\"pytest for LLMs,\" 40+ metrics (G-Eval, RAG, hallucination) + red-team; ~2M evals/day; hosted cloud. 🆕",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2026-08-17T11:05:50Z",
-            "owner": "confident-ai",
-            "repo": "deepeval",
-            "stars": 17662
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "lm-evaluation-harness — EleutherAI — https://github.com/EleutherAI/lm-evaluation-harness",
-          "description": "the standard academic harness; first-class decontamination; task YAMLs.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2026-08-14T09:42:10Z",
-            "owner": "EleutherAI",
-            "repo": "lm-evaluation-harness",
-            "stars": 13694
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "Giskard — https://github.com/Giskard-AI/giskard-oss",
-          "description": "auto-generates adversarial test suites (injection, hallucination, bias) from a plain-language app description.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2026-08-18T03:50:37Z",
-            "owner": "Giskard-AI",
-            "repo": "giskard-oss",
-            "stars": 5757
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "simple-evals — OpenAI — https://github.com/openai/simple-evals",
-          "description": "minimal zero-shot/CoT scripts (MMLU, HumanEval, SimpleQA, HealthBench); the numbers OpenAI publishes. ⚠️ not actively maintained.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2026-04-22T22:16:18Z",
-            "owner": "openai",
-            "repo": "simple-evals",
-            "stars": 4603
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "Harbor — harbor-framework (Laude Institute / Stanford) — https://github.com/harbor-framework/harbor",
-          "description": "🆕 framework for running agent evals + creating/using RL environments; powers Terminal-Bench 2.0. ~2.7k★. ⚠️ name overloaded (cf. local-LLM toolkit).",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2026-08-18T00:30:10Z",
-            "owner": "harbor-framework",
-            "repo": "harbor",
-            "stars": 4356
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "Deepchecks LLM — https://github.com/deepchecks/deepchecks",
-          "description": "() — property-based scoring (grounded-in-context, toxicity, fluency) + custom LLM-judge properties.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2025-12-28T12:07:44Z",
-            "owner": "deepchecks",
-            "repo": "deepchecks",
-            "stars": 4047
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "HELM (crfm-helm) — Stanford CRFM — https://github.com/stanford-crfm/helm",
-          "description": "holistic eval: standardized datasets + metrics beyond accuracy + leaderboard (also VHELM, HEIM).",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2026-08-01T01:23:17Z",
-            "owner": "stanford-crfm",
-            "repo": "helm",
-            "stars": 2879
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "Inspect AI — UK AISI — https://github.com/UKGovernmentBEIS/inspect_ai",
-          "description": "https://inspect.aisi.org.uk/ — binds dataset + solver + scorer; custom scorers; sandboxed tools. The reference agent-eval framework. (MUST)",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2026-08-18T09:46:14Z",
-            "owner": "UKGovernmentBEIS",
-            "repo": "inspect_ai",
-            "stars": 2568
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "lighteval — Hugging Face — https://github.com/huggingface/lighteval",
-          "description": "🆕 all-in-one harness across transformers/vLLM/TGI/nanotron, 1000+ tasks; HF's successor to .",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2026-08-11T13:10:37Z",
-            "owner": "huggingface",
-            "repo": "lighteval",
-            "stars": 2520
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "HF — https://github.com/huggingface/evaluate",
-          "description": "classic metrics library, ⚠️ maintenance mode (use lighteval for LLMs).",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2026-07-06T13:22:00Z",
-            "owner": "huggingface",
-            "repo": "evaluate",
-            "stars": 2476
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "UpTrain — https://github.com/uptrain-ai/uptrain",
-          "description": "20+ preconfigured checks + root-cause analysis on failures.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2024-08-18T13:30:44Z",
-            "owner": "uptrain-ai",
-            "repo": "uptrain",
-            "stars": 2358
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "openevals — LangChain — https://github.com/langchain-ai/openevals",
-          "description": "🆕 prebuilt evaluators + (incl. multimodal); general-purpose companion to agentevals (https://github.com/langchain-ai/agentevals, trajectory match).",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2026-08-18T05:02:42Z",
-            "owner": "langchain-ai",
-            "repo": "openevals",
-            "stars": 1170
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "OpenBench — Groq — https://github.com/groq/openbench",
-          "description": "🆕 provider-agnostic CLI, 95+ benchmarks, built on Inspect primitives.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2026-08-13T00:47:03Z",
-            "owner": "groq",
-            "repo": "openbench",
-            "stars": 801
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "inspect_evals — UK AISI — https://github.com/UKGovernmentBEIS/inspect_evals",
-          "description": "🆕 the companion catalog of community benchmarks (GAIA, CTFs, AIME…) — the \"batteries\" for Inspect.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2026-08-18T09:35:49Z",
-            "owner": "UKGovernmentBEIS",
-            "repo": "inspect_evals",
-            "stars": 629
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "OLMES — Allen Institute (Ai2) — https://github.com/allenai/olmes",
-          "description": "🆕 the reproducible eval standard + harness behind OLMo/Tülu: standardized prompts/metrics/formatting for apples-to-apples model comparison.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2026-03-24T17:47:10Z",
-            "owner": "allenai",
-            "repo": "olmes",
-            "stars": 392
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "BenchFlow — https://github.com/benchflow-ai/benchflow",
-          "description": "https://benchflow.ai — 🆕 environment-lab framework: research infra + runtime for building RL environments, evals & post-training; ships SkillsBench and ClawsBench. (\"Environments are the new data.\")",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2026-08-17T19:41:42Z",
-            "owner": "benchflow-ai",
-            "repo": "benchflow",
-            "stars": 327
-          }
-        }
-      ],
-      "title": "5a · Eval frameworks & harnesses (code-first test-runners)"
-    },
-    {
-      "description": "",
-      "items": [
-        {
-          "node_type": "item",
-          "title": "Mastra scorers — https://github.com/mastra-ai/mastra",
-          "description": "() — 🆕 model-graded/rule/statistical scorers, live evals, CI, in the Mastra agent framework.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "TypeScript",
-            "last_commit": "2026-08-18T09:33:48Z",
-            "owner": "mastra-ai",
-            "repo": "mastra",
-            "stars": 27266
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "evalite — Matt Pocock — https://github.com/mattpocock/evalite",
-          "description": "🆕 local-first eval runner on Vitest; files, web UI, cost-aware.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "TypeScript",
-            "last_commit": "2026-04-28T18:31:29Z",
-            "owner": "mattpocock",
-            "repo": "evalite",
-            "stars": 1656
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "Autoevals — Braintrust — https://github.com/braintrustdata/autoevals",
-          "description": "OSS scorer library (Factuality, relevance, security…) across Py/JS/Go/Ruby.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2026-07-29T20:54:43Z",
-            "owner": "braintrustdata",
-            "repo": "autoevals",
-            "stars": 1003
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "Vercel agent-eval — https://github.com/vercel-labs/agent-eval",
-          "description": "🆕 A/B-test coding agents (Claude Code, Codex, Cursor) on custom tasks; pass-rate dashboards.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "TypeScript",
-            "last_commit": "2026-08-17T20:52:57Z",
-            "owner": "vercel-labs",
-            "repo": "agent-eval",
-            "stars": 240
-          }
-        }
-      ],
-      "title": "5b · TypeScript/JS-native eval runners"
-    },
-    {
-      "description": "",
-      "items": [
-        {
-          "node_type": "item",
-          "title": "TruLens — https://github.com/truera/trulens",
-          "description": "instrumentation + \"feedback functions\" (the RAG triad), now OTel-based.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2026-08-14T16:08:33Z",
-            "owner": "truera",
-            "repo": "trulens",
-            "stars": 3514
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "RAGChecker — Amazon Science — https://github.com/amazon-science/RAGChecker",
-          "description": "🆕 claim-level diagnosis separating retriever vs generator errors.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2024-12-13T13:24:41Z",
-            "owner": "amazon-science",
-            "repo": "RAGChecker",
-            "stars": 1107
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "ARES — Stanford — https://github.com/stanford-futuredata/ARES",
-          "description": "synthetic queries + fine-tuned judges + prediction-powered inference for confidence intervals.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2025-03-28T11:25:50Z",
-            "owner": "stanford-futuredata",
-            "repo": "ARES",
-            "stars": 732
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "continuous-eval (Relari) — https://github.com/relari-ai/continuous-eval",
-          "description": "modular per-module metrics across retrieval/generation/tool-use.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2026-08-10T22:12:03Z",
-            "owner": "relari-ai",
-            "repo": "continuous-eval",
-            "stars": 515
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "Tonic Validate — https://github.com/TonicAI/tonic_validate",
-          "description": "RAG metrics as a GitHub Action for CI.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2025-07-10T13:53:28Z",
-            "owner": "TonicAI",
-            "repo": "tonic_validate",
-            "stars": 327
-          }
-        }
-      ],
-      "title": "5c · RAG / retrieval evaluation"
-    },
-    {
-      "description": "",
-      "items": [
-        {
-          "node_type": "item",
-          "title": "RULER — OpenPipe (ART) — https://github.com/OpenPipe/ART",
-          "description": "() — 🆕 LLM-judge that ranks trajectories with no labels — judge-as-RL-reward. (industry must-read)",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2026-08-18T08:57:27Z",
-            "owner": "OpenPipe",
-            "repo": "ART",
-            "stars": 10599
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "Prometheus 2 — https://github.com/prometheus-eval/prometheus-eval",
-          "description": "open-weight evaluator LMs for rubric-based assessment + pairwise.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2025-04-25T03:58:37Z",
-            "owner": "prometheus-eval",
-            "repo": "prometheus-eval",
-            "stars": 1106
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "RewardBench — AI2 — https://github.com/allenai/reward-bench",
-          "description": "canonical reward-model (+v2 judge) benchmark/harness.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2026-02-16T05:50:29Z",
-            "owner": "allenai",
-            "repo": "reward-bench",
-            "stars": 733
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "verdict — Haize Labs — https://github.com/haizelabs/verdict",
-          "description": "🆕 declarative compound judges (debate/verification/aggregation, inference-time scaling); arXiv:2502.18018.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Jupyter Notebook",
-            "last_commit": "2025-11-05T03:20:00Z",
-            "owner": "haizelabs",
-            "repo": "verdict",
-            "stars": 343
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "JudgeBench — https://github.com/ScalerLab/JudgeBench",
-          "description": "benchmark to evaluate the judges themselves.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2024-11-07T02:25:04Z",
-            "owner": "ScalerLab",
-            "repo": "JudgeBench",
-            "stars": 130
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "Flow-Judge — https://github.com/flowaicom/flow-judge",
-          "description": "efficient 3.8B open evaluator.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2024-10-29T07:23:19Z",
-            "owner": "flowaicom",
-            "repo": "flow-judge",
-            "stars": 86
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "Atla Selene — https://github.com/atla-ai/selene-mini",
-          "description": "🆕 8B SoTA open judge (score + critique); + MCP server . arXiv:2501.17195.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Jupyter Notebook",
-            "last_commit": "2025-04-14T11:14:05Z",
-            "owner": "atla-ai",
-            "repo": "selene-mini",
-            "stars": 30
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "reward-kit — Fireworks — https://github.com/fw-ai-external/reward-kit",
-          "description": "🆕 decorator-based reward-function authoring (TRL/Fireworks interop).",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2025-09-09T05:12:12Z",
-            "owner": "fw-ai-external",
-            "repo": "reward-kit",
-            "stars": 15
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "Patronus Lynx / GLIDER — https://github.com/patronus-ai/Lynx-hallucination-detection",
-          "description": "https://github.com/patronus-ai/glider — 🆕 open hallucination judge / explainable span-level judge.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2024-07-10T21:46:19Z",
-            "owner": "patronus-ai",
-            "repo": "Lynx-hallucination-detection",
-            "stars": 1
-          }
-        }
-      ],
-      "title": "5d · LLM-as-judge / reward / verifier libraries"
-    },
-    {
-      "description": "",
-      "items": [
-        {
-          "node_type": "item",
-          "title": "verl — https://github.com/volcengine/verl",
-          "description": "(now ) — de-facto industry RLVR trainer (PPO/GRPO). ~22k★.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2026-08-18T04:35:34Z",
-            "owner": "verl-project",
-            "repo": "verl",
-            "stars": 23015
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "OpenRLHF — https://github.com/OpenRLHF/OpenRLHF",
-          "description": "SkyRL — https://github.com/NovaSky-AI/SkyRL · AReaL — https://github.com/areal-project/AReaL · ROLL — https://github.com/alibaba/ROLL · rLLM — https://github.com/agentica-project/rllm · TRL — https://github.com/huggingface/trl — the RL-training stack agents are post-trained + eval'd in.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2026-08-13T11:26:24Z",
-            "owner": "OpenRLHF",
-            "repo": "OpenRLHF",
-            "stars": 9930
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "verifiers — Prime Intellect — https://github.com/PrimeIntellect-ai/verifiers",
-          "description": "Environment = dataset + harness + rubric; one package for eval, RL, synthetic data. (MUST)",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2026-08-18T00:38:49Z",
-            "owner": "PrimeIntellect-ai",
-            "repo": "verifiers",
-            "stars": 4521
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "prime-rl — Prime Intellect — https://github.com/PrimeIntellect-ai/prime-rl",
-          "description": "🆕 async RL trainer consuming verifiers envs (INTELLECT-3).",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2026-08-18T08:16:57Z",
-            "owner": "PrimeIntellect-ai",
-            "repo": "prime-rl",
-            "stars": 1941
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "Atropos — Nous Research — https://github.com/NousResearch/atropos",
-          "description": "🆕 async \"environment microservice\" framework for rollouts/verifiable rewards.",
-          "children": [],
-          "repo_info": {
-            "archived": true,
-            "language": "Python",
-            "last_commit": "2026-07-04T17:39:01Z",
-            "owner": "NousResearch",
-            "repo": "atropos",
-            "stars": 1347
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "BenchFlow — https://github.com/benchflow-ai/benchflow",
-          "description": "https://benchflow.ai — 🆕 environment lab: builds & runs RL/eval environments (SkillsBench, ClawsBench, runtime). \"Environments are the new data.\" (also §5a)",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2026-08-17T19:41:42Z",
-            "owner": "benchflow-ai",
-            "repo": "benchflow",
-            "stars": 327
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "HUD — https://github.com/hud-evals/hud-python",
-          "description": "🆕 SDK to build/run agent eval environments (computer-use, browser, MCP) with telemetry.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2026-08-18T04:46:40Z",
-            "owner": "hud-evals",
-            "repo": "hud-python",
-            "stars": 291
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "Environments Hub — Prime Intellect — https://github.com/PrimeIntellect-ai/community-environments",
-          "description": "(app.primeintellect.ai) — 🆕 crowdsourced verifiers-based RL/eval envs.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2026-08-04T22:17:50Z",
-            "owner": "PrimeIntellect-ai",
-            "repo": "community-environments",
-            "stars": 253
-          }
-        }
-      ],
-      "title": "5e · RL-environment / verifiable-reward toolkits (eval ⇄ training)"
-    },
-    {
-      "description": "",
-      "items": [
-        {
-          "node_type": "item",
-          "title": "Langfuse — https://github.com/langfuse/langfuse",
-          "description": "OSS: evals (LLM-judge, feedback, manual labeling), datasets/experiments, prompt mgmt; self-hostable. 🆕",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "TypeScript",
-            "last_commit": "2026-08-18T09:44:38Z",
-            "owner": "langfuse",
-            "repo": "langfuse",
-            "stars": 33311
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "Opik — Comet — https://github.com/comet-ml/opik",
-          "description": "🆕 fully-OSS eval + observability (judges, datasets, CI-runnable evals).",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2026-08-18T09:24:20Z",
-            "owner": "comet-ml",
-            "repo": "opik",
-            "stars": 21444
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "Portkey — https://github.com/portkey-ai/gateway",
-          "description": "🆕 OSS gateway + 60+ guardrails + observability (fully open-sourced Mar 2026).",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "TypeScript",
-            "last_commit": "2026-05-25T13:54:51Z",
-            "owner": "Portkey-AI",
-            "repo": "gateway",
-            "stars": 12754
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "Arize Phoenix — https://github.com/Arize-ai/phoenix",
-          "description": "OSS OTel tracing + response/retrieval evals + datasets/experiments. (MUST)",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2026-08-18T08:51:26Z",
-            "owner": "Arize-ai",
-            "repo": "phoenix",
-            "stars": 11092
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "Traceloop / OpenLLMetry — https://github.com/traceloop/openllmetry",
-          "description": "OSS OTel instrumentation (Py/TS/Go/Ruby) + hosted reliability platform.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2026-08-10T08:49:01Z",
-            "owner": "traceloop",
-            "repo": "openllmetry",
-            "stars": 7381
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "Helicone — https://github.com/helicone/helicone",
-          "description": "OSS gateway + observability; \"Scores\" ingests external eval results.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "TypeScript",
-            "last_commit": "2026-08-16T20:26:29Z",
-            "owner": "Helicone",
-            "repo": "helicone",
-            "stars": 6082
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "Langtrace — https://github.com/Scale3-Labs/langtrace",
-          "description": "OSS OTel-standard tracing + manual scoring + dataset mgmt.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "TypeScript",
-            "last_commit": "2025-11-17T15:08:48Z",
-            "owner": "Scale3-Labs",
-            "repo": "langtrace",
-            "stars": 1228
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "W&B Weave — https://github.com/wandb/weave",
-          "description": "scorers (exact/regex/model-graded/embedding) + Guardrails; comparison dashboards. 🆕 (Humanloop's migration target.)",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2026-08-18T06:52:59Z",
-            "owner": "wandb",
-            "repo": "weave",
-            "stars": 1118
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "WhyLabs / LangKit — https://github.com/whylabs/langkit",
-          "description": "high-throughput text-signal metrics (toxicity, PII, jailbreak) for production monitoring.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Jupyter Notebook",
-            "last_commit": "2024-11-22T20:02:14Z",
-            "owner": "whylabs",
-            "repo": "langkit",
-            "stars": 994
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "whatbroke — https://github.com/arthi-arumugam-git/whatbroke",
-          "description": "tool — OSS CLI that diffs two agent trace files (JSONL) before/after a model or prompt change: dropped tool calls, drifted args, reordering, cost/latency/outcome deltas; multi-sample flap rates demote baseline flakiness so only real regressions surface. Offline, deterministic, no judge or API keys; CI-gateable exit codes. 🆕",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "TypeScript",
-            "last_commit": "2026-08-06T06:19:19Z",
-            "owner": "arthi-arumugam-git",
-            "repo": "whatbroke",
-            "stars": 19
-          }
-        }
-      ],
-      "title": "5f · Observability + eval platforms (tracing · datasets · online/offline · CI)"
-    },
-    {
-      "description": "",
-      "items": [
-        {
-          "node_type": "item",
-          "title": "RagaAI Catalyst — RagaAI — https://github.com/raga-ai-hub/RagaAI-Catalyst",
-          "description": "tool — OSS agent-observability + eval SDK with multi-agent trace/execution-graph debugging, synthetic-data gen, and guardrail management — covers the online/guardrail-eval slice the section lacks. 🆕",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2026-02-11T14:43:33Z",
-            "owner": "raga-ai-hub",
-            "repo": "RagaAI-Catalyst",
-            "stars": 16149
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "OpenInference — Arize — https://github.com/Arize-ai/openinference",
-          "description": "semantic conventions for agent traces (tool/args/observation/latency/cost).",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2026-08-18T07:46:44Z",
-            "owner": "Arize-ai",
-            "repo": "openinference",
-            "stars": 1151
-          }
-        }
-      ],
-      "title": "5g · Tracing standards"
-    },
-    {
-      "description": "",
+      "description": "Must-reads: Press · Kapoor et al. · OpenAI (SWE-bench Verified) · Leaderboard Illusion",
       "items": [
         {
           "node_type": "item",
@@ -937,6 +1007,7 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "id": 870039374,
             "language": "Jupyter Notebook",
             "last_commit": "2025-12-03T14:45:05Z",
             "owner": "huggingface",
@@ -951,18 +1022,19 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "id": 814138036,
             "language": "Python",
-            "last_commit": "2026-08-17T20:40:40Z",
+            "last_commit": "2026-08-18T22:40:47Z",
             "owner": "LiveBench",
             "repo": "LiveBench",
-            "stars": 1287
+            "stars": 1288
           }
         }
       ],
       "title": "6 · Benchmark vs. eval (and benchmark integrity: contamination, saturation, label errors, leaderboard gaming)"
     },
     {
-      "description": "",
+      "description": "Must-reads: Anthropic (demystifying) · τ-bench · Lee (pass@k)",
       "items": [
         {
           "node_type": "item",
@@ -971,11 +1043,12 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "id": 700117650,
             "language": "Python",
-            "last_commit": "2026-08-18T01:07:16Z",
+            "last_commit": "2026-08-18T23:53:40Z",
             "owner": "SWE-bench",
             "repo": "SWE-bench",
-            "stars": 5658
+            "stars": 5666
           }
         },
         {
@@ -985,11 +1058,12 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "id": 383601290,
             "language": "Python",
             "last_commit": "2025-01-17T18:22:17Z",
             "owner": "openai",
             "repo": "human-eval",
-            "stars": 3344
+            "stars": 3345
           }
         },
         {
@@ -999,11 +1073,12 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "id": 869660918,
             "language": "Python",
             "last_commit": "2026-04-24T17:33:44Z",
             "owner": "openai",
             "repo": "mle-bench",
-            "stars": 1698
+            "stars": 1700
           }
         },
         {
@@ -1013,11 +1088,12 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "id": 1124479538,
             "language": "PDDL",
             "last_commit": "2026-07-23T19:09:35Z",
             "owner": "benchflow-ai",
             "repo": "skillsbench",
-            "stars": 1691
+            "stars": 1692
           }
         },
         {
@@ -1027,11 +1103,12 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "id": 811477986,
             "language": "Python",
             "last_commit": "2026-03-18T17:36:06Z",
             "owner": "sierra-research",
             "repo": "tau-bench",
-            "stars": 1386
+            "stars": 1389
           }
         },
         {
@@ -1041,11 +1118,12 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "id": 866594191,
             "language": "Python",
             "last_commit": "2026-07-18T05:25:41Z",
             "owner": "OSU-NLP-Group",
             "repo": "ScienceAgentBench",
-            "stars": 155
+            "stars": 156
           }
         },
         {
@@ -1055,6 +1133,7 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "id": 1204684587,
             "language": null,
             "last_commit": "2026-04-08T17:31:29Z",
             "owner": "benchflow-ai",
@@ -1069,6 +1148,7 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "id": 984393109,
             "language": "Python",
             "last_commit": "2025-05-15T23:21:21Z",
             "owner": "agi-inc",
@@ -1080,7 +1160,7 @@
       "title": "9 · Agent-specific evaluation (trajectories, tool use, multi-turn, world state, multi-agent, localization)"
     },
     {
-      "description": "",
+      "description": "Must-reads: Dawn Song (BenchJack) · Anthropic (error bars)",
       "items": [
         {
           "node_type": "item",
@@ -1089,6 +1169,7 @@
           "children": [],
           "repo_info": {
             "archived": true,
+            "id": 1191146757,
             "language": null,
             "last_commit": "2026-03-25T01:18:52Z",
             "owner": "Azure",
@@ -1103,6 +1184,7 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "id": 811984976,
             "language": "Jupyter Notebook",
             "last_commit": "2024-08-14T20:57:53Z",
             "owner": "stanford-crfm",
@@ -1112,30 +1194,10 @@
         }
       ],
       "title": "10 · Safety / adversarial evaluation (prompt injection, jailbreaks, action-authorization, benchmark auditing)"
-    },
-    {
-      "description": "",
-      "items": [],
-      "title": "🎙 Talks, podcasts & slides (transcribed + noted)"
-    },
-    {
-      "description": "",
-      "items": [],
-      "title": "💬 Eval mentions"
-    },
-    {
-      "description": "PRs welcome. Keep the bar high: show your work (real data/code/war-stories beat hot takes), give every entry a one-line why, verify the URL, and flag caveats. See CONTRIBUTING.md. Quality over quantity — a great list is as much about what it excludes.",
-      "items": [],
-      "title": "Contributing"
-    },
-    {
-      "description": "To the extent possible under law, BenchFlow and contributors have waived all copyright and related rights to this work (CC0 1.0). The linked resources remain under their respective licenses.",
-      "items": [],
-      "title": "License"
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-18T09:48:38.015Z",
+    "last_updated": "2026-08-19T09:49:12.699Z",
     "original_repository": "benchflow-ai/awesome-evals",
     "original_repository_sha": "6655f1f8e8834dd8e30dbe9e3a47e221c6d0c9ba",
     "enhanced_repository": "enhansome/enhansome-evals",
