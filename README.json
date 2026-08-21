@@ -12,10 +12,10 @@
             "archived": false,
             "id": 920603619,
             "language": "Python",
-            "last_commit": "2026-08-20T04:24:15Z",
+            "last_commit": "2026-08-21T04:37:35Z",
             "owner": "PrimeIntellect-ai",
             "repo": "verifiers",
-            "stars": 4527
+            "stars": 4530
           }
         },
         {
@@ -30,7 +30,7 @@
             "last_commit": "2026-08-18T17:07:54Z",
             "owner": "sierra-research",
             "repo": "tau2-bench",
-            "stars": 1834
+            "stars": 1837
           }
         },
         {
@@ -42,10 +42,10 @@
             "archived": false,
             "id": 1141514919,
             "language": "Python",
-            "last_commit": "2026-08-19T23:22:40Z",
+            "last_commit": "2026-08-20T22:19:21Z",
             "owner": "harbor-framework",
             "repo": "terminal-bench",
-            "stars": 520
+            "stars": 523
           }
         }
       ],
@@ -63,10 +63,10 @@
             "archived": false,
             "id": 735999703,
             "language": "Python",
-            "last_commit": "2026-08-20T01:58:10Z",
+            "last_commit": "2026-08-20T18:24:56Z",
             "owner": "Arize-ai",
             "repo": "openinference",
-            "stars": 1158
+            "stars": 1161
           }
         },
         {
@@ -78,10 +78,10 @@
             "archived": false,
             "id": 1229425836,
             "language": "Python",
-            "last_commit": "2026-08-20T03:24:44Z",
+            "last_commit": "2026-08-21T02:16:03Z",
             "owner": "open-telemetry",
             "repo": "semantic-conventions-genai",
-            "stars": 266
+            "stars": 270
           }
         }
       ],
@@ -101,10 +101,10 @@
                 "archived": false,
                 "id": 633927609,
                 "language": "TypeScript",
-                "last_commit": "2026-08-20T06:02:49Z",
+                "last_commit": "2026-08-21T05:03:29Z",
                 "owner": "promptfoo",
                 "repo": "promptfoo",
-                "stars": 24398
+                "stars": 24424
               }
             },
             {
@@ -116,10 +116,10 @@
                 "archived": false,
                 "id": 818331198,
                 "language": "Python",
-                "last_commit": "2026-08-20T09:48:31Z",
+                "last_commit": "2026-08-21T09:46:21Z",
                 "owner": "pydantic",
                 "repo": "pydantic-ai",
-                "stars": 19409
+                "stars": 19426
               }
             },
             {
@@ -134,7 +134,7 @@
                 "last_commit": "2026-04-14T15:29:57Z",
                 "owner": "openai",
                 "repo": "evals",
-                "stars": 19206
+                "stars": 19213
               }
             },
             {
@@ -146,10 +146,10 @@
                 "archived": false,
                 "id": 676829188,
                 "language": "Python",
-                "last_commit": "2026-08-20T09:26:16Z",
+                "last_commit": "2026-08-21T08:38:17Z",
                 "owner": "confident-ai",
                 "repo": "deepeval",
-                "stars": 17724
+                "stars": 17755
               }
             },
             {
@@ -161,10 +161,10 @@
                 "archived": false,
                 "id": 290909192,
                 "language": "Python",
-                "last_commit": "2026-08-14T09:42:10Z",
+                "last_commit": "2026-08-20T16:02:09Z",
                 "owner": "EleutherAI",
                 "repo": "lm-evaluation-harness",
-                "stars": 13723
+                "stars": 13733
               }
             },
             {
@@ -176,10 +176,10 @@
                 "archived": false,
                 "id": 466864356,
                 "language": "Python",
-                "last_commit": "2026-08-19T12:14:44Z",
+                "last_commit": "2026-08-20T21:37:02Z",
                 "owner": "Giskard-AI",
                 "repo": "giskard-oss",
-                "stars": 5758
+                "stars": 5760
               }
             },
             {
@@ -194,22 +194,22 @@
                 "last_commit": "2026-04-22T22:16:18Z",
                 "owner": "openai",
                 "repo": "simple-evals",
-                "stars": 4606
+                "stars": 4607
               }
             },
             {
               "node_type": "item",
               "title": "Harbor — harbor-framework (Laude Institute / Stanford) — https://github.com/harbor-framework/harbor",
-              "description": "🆕 framework for running agent evals + creating/using RL environments; powers Terminal-Bench 2.0. ~2.7k★. ⚠️ name overloaded (cf. local-LLM toolkit).",
+              "description": "🆕 framework for running agent evals + creating/using RL environments; powers Terminal-Bench 2.0. ~3.7k★. ⚠️ name overloaded (cf. local-LLM toolkit).",
               "children": [],
               "repo_info": {
                 "archived": false,
                 "id": 1032170083,
                 "language": "Python",
-                "last_commit": "2026-08-20T01:34:48Z",
+                "last_commit": "2026-08-21T05:23:51Z",
                 "owner": "harbor-framework",
                 "repo": "harbor",
-                "stars": 4447
+                "stars": 4490
               }
             },
             {
@@ -239,7 +239,7 @@
                 "last_commit": "2026-08-01T01:23:17Z",
                 "owner": "stanford-crfm",
                 "repo": "helm",
-                "stars": 2880
+                "stars": 2882
               }
             },
             {
@@ -251,10 +251,10 @@
                 "archived": false,
                 "id": 718665019,
                 "language": "Python",
-                "last_commit": "2026-08-20T09:16:20Z",
+                "last_commit": "2026-08-21T01:35:33Z",
                 "owner": "UKGovernmentBEIS",
                 "repo": "inspect_ai",
-                "stars": 2589
+                "stars": 2596
               }
             },
             {
@@ -284,7 +284,7 @@
                 "last_commit": "2026-07-06T13:22:00Z",
                 "owner": "huggingface",
                 "repo": "evaluate",
-                "stars": 2477
+                "stars": 2478
               }
             },
             {
@@ -299,7 +299,7 @@
                 "last_commit": "2024-08-18T13:30:44Z",
                 "owner": "uptrain-ai",
                 "repo": "uptrain",
-                "stars": 2359
+                "stars": 2361
               }
             },
             {
@@ -314,7 +314,7 @@
                 "last_commit": "2026-08-20T07:55:05Z",
                 "owner": "langchain-ai",
                 "repo": "openevals",
-                "stars": 1172
+                "stars": 1174
               }
             },
             {
@@ -341,10 +341,10 @@
                 "archived": false,
                 "id": 866415939,
                 "language": "Python",
-                "last_commit": "2026-08-20T07:46:21Z",
+                "last_commit": "2026-08-21T08:40:07Z",
                 "owner": "UKGovernmentBEIS",
                 "repo": "inspect_evals",
-                "stars": 636
+                "stars": 637
               }
             },
             {
@@ -371,10 +371,40 @@
                 "archived": false,
                 "id": 920298184,
                 "language": "Python",
-                "last_commit": "2026-08-20T06:36:58Z",
+                "last_commit": "2026-08-20T20:06:33Z",
                 "owner": "benchflow-ai",
                 "repo": "benchflow",
-                "stars": 327
+                "stars": 328
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Coder Eval — UiPath — https://github.com/UiPath/coder_eval",
+              "description": "https://coder-eval.com/docs — 🆕 treats skill activation as a measurable variable: over a labelled dataset yields suite-level precision/recall/F1 gates (cf. §3). Harness-level, not leaderboard-level. ~0.1k★.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1294760624,
+                "language": "Python",
+                "last_commit": "2026-08-21T07:00:41Z",
+                "owner": "UiPath",
+                "repo": "coder_eval",
+                "stars": 116
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Caliper — Emrick Donadei — https://github.com/edonadei/caliper",
+              "description": "https://pypi.org/project/caliper-eval/ — 🆕 pass@k reliability harness for agent skills: runs a skill k times against Claude Code / Codex / pi, grading each attempt with an LLM-autorater () and/or deterministic Python (), then a re-run without the skill reports the delta to prove the skill beats the base agent. Git-diffable specs; isolated per-attempt sandboxes.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1237259189,
+                "language": "Python",
+                "last_commit": "2026-08-21T02:48:14Z",
+                "owner": "edonadei",
+                "repo": "caliper",
+                "stars": 39
               }
             }
           ],
@@ -393,10 +423,25 @@
                 "archived": false,
                 "id": 839037098,
                 "language": "TypeScript",
-                "last_commit": "2026-08-20T09:48:29Z",
+                "last_commit": "2026-08-21T09:17:34Z",
                 "owner": "mastra-ai",
                 "repo": "mastra",
-                "stars": 27324
+                "stars": 27347
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Open Multi-Agent evaluation — Open Multi-Agent — https://github.com/open-multi-agent/open-multi-agent/blob/main/docs/evaluation.md",
+              "description": "tool/framework — 🆕 TypeScript-native, versioned EvalSets with offline JSON/Markdown/JUnit reports, baseline regression gates for CI, and opt-in production sampling that scores settled runs asynchronously without changing their results.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1197656406,
+                "language": "TypeScript",
+                "last_commit": "2026-08-20T18:07:31Z",
+                "owner": "open-multi-agent",
+                "repo": "open-multi-agent",
+                "stars": 6802
               }
             },
             {
@@ -460,10 +505,10 @@
                 "archived": false,
                 "id": 309504885,
                 "language": "Python",
-                "last_commit": "2026-08-19T18:03:24Z",
+                "last_commit": "2026-08-20T19:23:10Z",
                 "owner": "truera",
                 "repo": "trulens",
-                "stars": 3516
+                "stars": 3517
               }
             },
             {
@@ -478,7 +523,7 @@
                 "last_commit": "2024-12-13T13:24:41Z",
                 "owner": "amazon-science",
                 "repo": "RAGChecker",
-                "stars": 1108
+                "stars": 1109
               }
             },
             {
@@ -542,10 +587,10 @@
                 "archived": false,
                 "id": 946178371,
                 "language": "Python",
-                "last_commit": "2026-08-19T21:39:44Z",
+                "last_commit": "2026-08-21T07:52:46Z",
                 "owner": "OpenPipe",
                 "repo": "ART",
-                "stars": 10604
+                "stars": 10610
               }
             },
             {
@@ -625,6 +670,21 @@
             },
             {
               "node_type": "item",
+              "title": "Patronus Lynx / GLIDER — https://github.com/patronus-ai/Lynx-hallucination-detection",
+              "description": "https://github.com/patronus-ai/glider — 🆕 open hallucination judge / explainable span-level judge.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 826769879,
+                "language": "Python",
+                "last_commit": "2024-07-10T21:46:19Z",
+                "owner": "patronus-ai",
+                "repo": "Lynx-hallucination-detection",
+                "stars": 47
+              }
+            },
+            {
+              "node_type": "item",
               "title": "Atla Selene — https://github.com/atla-ai/selene-mini",
               "description": "🆕 8B SoTA open judge (score + critique); + MCP server . arXiv:2501.17195.",
               "children": [],
@@ -636,6 +696,21 @@
                 "owner": "atla-ai",
                 "repo": "selene-mini",
                 "stars": 30
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "RewardHarness — TIGER-AI-Lab et al. — https://arxiv.org/abs/2605.08703",
+              "description": "framework — 🆕 evolves task-specific scoring skills and tools from preference demonstrations, producing image-editing judgments and a GRPO-compatible scalar reward without reward-model training.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1239029437,
+                "language": "Python",
+                "last_commit": "2026-08-18T12:29:46Z",
+                "owner": "TIGER-AI-Lab",
+                "repo": "RewardHarness",
+                "stars": 21
               }
             },
             {
@@ -655,17 +730,17 @@
             },
             {
               "node_type": "item",
-              "title": "Patronus Lynx / GLIDER — https://github.com/patronus-ai/Lynx-hallucination-detection",
-              "description": "https://github.com/patronus-ai/glider — 🆕 open hallucination judge / explainable span-level judge.",
+              "title": "truescore — Saif Punjwani — https://github.com/SaifPunjwani/truescore",
+              "description": "tool — Measures a judge against held-out human labels (sensitivity, Cohen's kappa, Gwet's AC1), tests it for length, position and self-preference bias, then corrects the reported score with prediction-powered inference so the interval covers the truth rather than the judge's opinion. Apache-2.0, numpy/scipy only. 🆕 ⚠️ new and unproven (repo created Jul 2026, no external adoption yet).",
               "children": [],
               "repo_info": {
                 "archived": false,
-                "id": 826769879,
+                "id": 1312378819,
                 "language": "Python",
-                "last_commit": "2024-07-10T21:46:19Z",
-                "owner": "patronus-ai",
-                "repo": "Lynx-hallucination-detection",
-                "stars": 1
+                "last_commit": "2026-07-27T21:49:58Z",
+                "owner": "SaifPunjwani",
+                "repo": "truescore",
+                "stars": 0
               }
             }
           ],
@@ -684,10 +759,10 @@
                 "archived": false,
                 "id": 881221486,
                 "language": "Python",
-                "last_commit": "2026-08-20T06:51:21Z",
+                "last_commit": "2026-08-21T07:49:36Z",
                 "owner": "verl-project",
                 "repo": "verl",
-                "stars": 23042
+                "stars": 23059
               }
             },
             {
@@ -702,7 +777,7 @@
                 "last_commit": "2026-08-13T11:26:24Z",
                 "owner": "OpenRLHF",
                 "repo": "OpenRLHF",
-                "stars": 9936
+                "stars": 9938
               }
             },
             {
@@ -714,10 +789,10 @@
                 "archived": false,
                 "id": 920603619,
                 "language": "Python",
-                "last_commit": "2026-08-20T04:24:15Z",
+                "last_commit": "2026-08-21T04:37:35Z",
                 "owner": "PrimeIntellect-ai",
                 "repo": "verifiers",
-                "stars": 4527
+                "stars": 4530
               }
             },
             {
@@ -729,10 +804,10 @@
                 "archived": false,
                 "id": 934553284,
                 "language": "Python",
-                "last_commit": "2026-08-20T05:11:17Z",
+                "last_commit": "2026-08-21T06:13:39Z",
                 "owner": "PrimeIntellect-ai",
                 "repo": "prime-rl",
-                "stars": 1952
+                "stars": 1955
               }
             },
             {
@@ -759,10 +834,10 @@
                 "archived": false,
                 "id": 920298184,
                 "language": "Python",
-                "last_commit": "2026-08-20T06:36:58Z",
+                "last_commit": "2026-08-20T20:06:33Z",
                 "owner": "benchflow-ai",
                 "repo": "benchflow",
-                "stars": 327
+                "stars": 328
               }
             },
             {
@@ -774,10 +849,10 @@
                 "archived": false,
                 "id": 941344611,
                 "language": "Python",
-                "last_commit": "2026-08-20T05:31:32Z",
+                "last_commit": "2026-08-21T06:40:01Z",
                 "owner": "hud-evals",
                 "repo": "hud-python",
-                "stars": 291
+                "stars": 294
               }
             },
             {
@@ -811,10 +886,10 @@
                 "archived": false,
                 "id": 642497346,
                 "language": "TypeScript",
-                "last_commit": "2026-08-20T09:48:52Z",
+                "last_commit": "2026-08-21T09:41:22Z",
                 "owner": "langfuse",
                 "repo": "langfuse",
-                "stars": 33449
+                "stars": 33509
               }
             },
             {
@@ -826,10 +901,10 @@
                 "archived": false,
                 "id": 638951438,
                 "language": "Python",
-                "last_commit": "2026-08-20T09:40:35Z",
+                "last_commit": "2026-08-21T09:43:49Z",
                 "owner": "comet-ml",
                 "repo": "opik",
-                "stars": 21495
+                "stars": 21511
               }
             },
             {
@@ -844,7 +919,7 @@
                 "last_commit": "2026-05-25T13:54:51Z",
                 "owner": "Portkey-AI",
                 "repo": "gateway",
-                "stars": 12775
+                "stars": 12780
               }
             },
             {
@@ -856,10 +931,10 @@
                 "archived": false,
                 "id": 564072810,
                 "language": "Python",
-                "last_commit": "2026-08-20T08:39:51Z",
+                "last_commit": "2026-08-21T09:29:24Z",
                 "owner": "Arize-ai",
                 "repo": "phoenix",
-                "stars": 11128
+                "stars": 11134
               }
             },
             {
@@ -889,7 +964,7 @@
                 "last_commit": "2026-08-16T20:26:29Z",
                 "owner": "Helicone",
                 "repo": "helicone",
-                "stars": 6085
+                "stars": 6092
               }
             },
             {
@@ -916,10 +991,10 @@
                 "archived": false,
                 "id": 650377372,
                 "language": "Python",
-                "last_commit": "2026-08-20T05:04:14Z",
+                "last_commit": "2026-08-21T03:20:57Z",
                 "owner": "wandb",
                 "repo": "weave",
-                "stars": 1120
+                "stars": 1121
               }
             },
             {
@@ -934,7 +1009,7 @@
                 "last_commit": "2024-11-22T20:02:14Z",
                 "owner": "whylabs",
                 "repo": "langkit",
-                "stars": 994
+                "stars": 993
               }
             },
             {
@@ -971,7 +1046,7 @@
                 "last_commit": "2026-02-11T14:43:33Z",
                 "owner": "raga-ai-hub",
                 "repo": "RagaAI-Catalyst",
-                "stars": 16148
+                "stars": 16149
               }
             },
             {
@@ -983,10 +1058,10 @@
                 "archived": false,
                 "id": 735999703,
                 "language": "Python",
-                "last_commit": "2026-08-20T01:58:10Z",
+                "last_commit": "2026-08-20T18:24:56Z",
                 "owner": "Arize-ai",
                 "repo": "openinference",
-                "stars": 1158
+                "stars": 1161
               }
             }
           ],
@@ -1027,7 +1102,7 @@
             "last_commit": "2026-08-19T13:17:12Z",
             "owner": "LiveBench",
             "repo": "LiveBench",
-            "stars": 1288
+            "stars": 1290
           }
         }
       ],
@@ -1048,7 +1123,7 @@
             "last_commit": "2026-08-18T23:53:40Z",
             "owner": "SWE-bench",
             "repo": "SWE-bench",
-            "stars": 5673
+            "stars": 5679
           }
         },
         {
@@ -1063,7 +1138,7 @@
             "last_commit": "2025-01-17T18:22:17Z",
             "owner": "openai",
             "repo": "human-eval",
-            "stars": 3346
+            "stars": 3349
           }
         },
         {
@@ -1078,7 +1153,7 @@
             "last_commit": "2026-04-24T17:33:44Z",
             "owner": "openai",
             "repo": "mle-bench",
-            "stars": 1703
+            "stars": 1709
           }
         },
         {
@@ -1093,7 +1168,7 @@
             "last_commit": "2026-07-23T19:09:35Z",
             "owner": "benchflow-ai",
             "repo": "skillsbench",
-            "stars": 1700
+            "stars": 1705
           }
         },
         {
@@ -1108,7 +1183,7 @@
             "last_commit": "2026-03-18T17:36:06Z",
             "owner": "sierra-research",
             "repo": "tau-bench",
-            "stars": 1394
+            "stars": 1397
           }
         },
         {
@@ -1123,7 +1198,7 @@
             "last_commit": "2026-07-18T05:25:41Z",
             "owner": "OSU-NLP-Group",
             "repo": "ScienceAgentBench",
-            "stars": 157
+            "stars": 158
           }
         },
         {
@@ -1154,6 +1229,21 @@
             "owner": "agi-inc",
             "repo": "REAL",
             "stars": 9
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Dr. Bench: A Multidimensional Evaluation for Deep Research Agents, from Answers to Reports — Yao et al. — https://github.com/EVIGBYEN/DrBench",
+          "description": "benchmark — 214 expert-curated deep-research tasks across 10 domains, evaluating long reports for semantic quality, topical focus, and retrieval trustworthiness. 🆕",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 1068452122,
+            "language": "Jupyter Notebook",
+            "last_commit": "2026-05-02T14:44:09Z",
+            "owner": "EVIGBYEN",
+            "repo": "DrBench",
+            "stars": 8
           }
         }
       ],
@@ -1197,10 +1287,10 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-20T09:49:45.276Z",
+    "last_updated": "2026-08-21T09:52:20.971Z",
     "original_repository": "benchflow-ai/awesome-evals",
     "original_repository_id": 1278930806,
-    "original_repository_sha": "6655f1f8e8834dd8e30dbe9e3a47e221c6d0c9ba",
+    "original_repository_sha": "1b8928b60a9d41cbab371610d741d39a3fd50860",
     "enhanced_repository": "enhansome/enhansome-evals",
     "enhanced_repository_description": null,
     "title": "Awesome Agent Evals with stars"
